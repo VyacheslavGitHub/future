@@ -1,0 +1,49 @@
+.head, .menu{
+    background-color: $white;
+    padding: 2.183%;
+}
+.head{
+    @extend %clearfix;
+}
+.logo {
+    width: 22.1%; /*242*/
+    height: auto; /*138*/
+    float: left;
+}
+.logo__item{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.right{
+    padding-top: 54px;
+    width: 50.86%; /*557px*/
+    float: right;
+}
+.right{
+   @extend %clearfix;
+}
+.calc__price {
+    width: 43.1%; /*218*/
+    float: left;
+    padding-top: 1.6em;
+}
+.calc__price__link {
+    font-size: 1.43em;
+    color: $orange;
+}
+.phone {
+    width: 44.9%; /*245*/
+    float: right;
+}
+.phone__time{
+    font-size: 1em;
+    text-align: right;
+    color: #484745;
+}
+.phone__number {
+    font-size: 1.93em;
+    font-family: Arial;
+    text-align: right;
+    color: $black;
+}

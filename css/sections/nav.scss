@@ -1,0 +1,31 @@
+.menu{
+    padding: 0 2.183%;
+    font-size: 0;
+}
+.menu__item{
+    display: inline-block;
+    width: 19.6%;/*225*/
+    text-align: center;
+    border-right: 1px solid #5f6973;
+}
+.menu__item:last-child {
+    border: 0;
+}
+.menu__item__link {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 18px 0;
+    color: $black;
+    font-size: 24px;
+}
+.menu__active__item {
+    background: $darkblue;
+    color: $white;
+}
+.menu__active__link {
+    color: $white;
+}
+nav, section {
+    margin-bottom: 34px;
+} 

@@ -1,0 +1,30 @@
+
+// adjustment variables
+$container-width    : 1145px;
+$body-font          : Arial;
+
+//colors
+$green: #8cc34b;
+$black: #4b4b4b;
+$grey: #8a8a8a;
+$blue: #e1f0f8;
+$darkblue: #7bc3d5;
+$white: #ffffff;
+$orange: #f46c4d;
+
+// layout
+@import "_misc/adjustment";
+@import "_misc/normalize";
+@import "_misc/mixins";
+
+// styles
+@import "sections/header";
+@import "sections/nav";
+@import "sections/content";
+@import "sections/process.scss";
+@import "sections/comment";
+
+
+
+
+

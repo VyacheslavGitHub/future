@@ -1,0 +1,138 @@
+.comment{
+    width: 76.7%;
+    float: right;
+    margin-bottom: 0;
+}
+.comment__title{
+    margin-bottom: 23px;
+}
+.comment__title{
+   @extend %clearfix;
+}
+.comment__title__left{
+    width: 55%;
+    float: left;
+    font-size: 1.625em;
+    color: $black;
+}
+.comment__all{
+    width: 45%;
+    float: right;
+    text-align: right;
+    padding-top: 10px;
+}
+.comment__all__link{
+    
+    font-size: 1em;
+    color: $orange;
+}
+.user__commet__name{
+    font-size: 1em;
+    color: $black;
+    margin-bottom: 6px;
+}
+.user__comment__contract, .user__comment__date{
+    font-size: 0.875em;
+    color: $grey;
+}
+.user__comment__date{
+    margin-bottom: 11px;
+}
+.user__comment__score{
+    margin-bottom: 16px;
+}
+.user__comment__text{
+    font-size: 0.875em;
+    color: $black;
+    width: 94.26%;
+    margin-bottom: 20px;
+}
+.user__comment__readall{
+    margin-bottom: 36px;
+}
+.user__comment__readall__link{
+    color: $orange;
+    text-decoration: none;
+    font-size: 1em;
+    background: url(../images/decor/read__icon.png) no-repeat left center;
+    display: inline-block;
+    padding-left: 20px;
+}
+.user__comment__readall__link span {
+    border-bottom: 1px dashed $orange;
+}
+.add__comment{
+    width: 20.1%;
+    background: #eb5825;
+    @include border-radius(5px);
+    margin-bottom: 26px;
+}
+.add__comment__link{
+    display: block;
+    padding: 14px 26px;
+    color: $white;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.rating {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    list-style: none;
+    width: 79px;
+    height: 13px;
+    background: url(../images/decor/stars.png);
+}
+.rating li{
+    float: left;
+    height: 13px;
+}
+.rating li.current {
+    z-index: 1;
+    background: url(../images/decor/stars.png) left bottom;
+    
+}
+.rating li span[class*="star"]{
+    position: absolute;
+    z-index: 5;
+    display: block;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+}
+.rating li span[class*="star"]:hover {
+    z-index: 2;
+    left: 0;
+    background: url(../images/decor/stars.png) left bottom;
+}
+.rating li span.star1{
+    left: 0;
+}
+.rating li span.star1:hover {
+    width: 13px;
+}
+.rating li span.star2{
+    left: 16px;
+}
+.rating li span.star2:hover {
+    width: 30px;
+}
+.rating li span.star3{
+    left: 32px;
+}
+.rating li span.star3:hover {
+    width: 45px;
+}
+.rating li span.star4{
+    left: 48px;
+}
+.rating li span.star4:hover {
+    width: 62px;
+}
+.rating li span.star5{
+    left: 64px;
+}
+.rating li span.star5:hover {
+    width: 78px;
+}

@@ -1,0 +1,58 @@
+
+.advantage{
+    margin-bottom: 40px;
+}
+.advantage__item__icon, .advantage__item__text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.advantage__item__icon{
+    width: 57px;
+}
+.advantage__item__icon img {
+    display: block;
+    max-width: 100%;
+}
+.advantage__item__text{
+    width: 700px;
+    font-size: 0.875em;
+    margin: 12px 0;
+    margin-left: 34px;
+}
+
+.process__item{
+    padding-bottom: 14px;
+}
+.process__item__icon1,.process__item__icon2,.process__item__icon3, .process__item__text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.process__item__icon1{
+    width: 35px;
+    height: 35px;
+    background-image: url(../images/decor/numbers.png);
+    background-position: 0 0;
+    background-repeat:no-repeat;
+    
+}
+.process__item__icon2{
+    width: 35px;
+    height: 35px;
+    background-image: url(../images/decor/numbers.png);
+    background-position: 0 -52px;
+    background-repeat:no-repeat;
+    
+}
+.process__item__icon3{
+    width: 35px;
+    height: 35px;
+    background-image: url(../images/decor/numbers.png);
+    background-position: 0 -104px;
+    background-repeat:no-repeat;
+    
+}
+.process__item__text{
+    width: 746px;
+    margin-left: 18px;
+    font-size: 0.875em;
+}
